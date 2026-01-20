@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>السيرة الذاتية | Ahmad Yaghi</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="index.html">Ahmad Yaghi</a>
+      <a class="link" href="index.html">العودة للموقع</a>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>السيرة الذاتية</h1>
+
+      <div class="box">
+        <h3>الملخص المهني</h3>
+        <p class="muted">
+          محاسب ومحاسب ضريبي متخصص في الشركات التجارية والخدمية والصناعية.
+          أركز على الدقة، تنظيم الحسابات، إعداد تقارير واضحة، والالتزام الضريبي بدون تعقيد.
+        </p>
+      </div>
+
+      <div class="box">
+        <h3>المهارات</h3>
+        <ul class="list">
+          <li>إعداد ميزان مراجعة وتقارير مالية</li>
+          <li>محاسبة ضريبية والالتزام الضريبي</li>
+          <li>QuickBooks Online</li>
+          <li>Excel متقدم</li>
+          <li>Access & VBA</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>مجالات الخبرة</h3>
+        <ul class="list">
+          <li>شركات تجارية</li>
+          <li>شركات خدمية</li>
+          <li>شركات صناعية</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>تحميل نسخة PDF</h3>
+        <a class="btn btn--primary" href="ahmad-yaghi-cv.pdf" download>تحميل PDF</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© Ahmad Yaghi</span>
+      <a class="link" href="https://wa.me/962780647378" target="_blank" rel="noopener">واتساب</a>
+    </div>
+  </footer>
+
+</body>
+</html>
