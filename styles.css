@@ -1,0 +1,17 @@
+body {
+  font-family: Tahoma, Arial;
+  background: #0b1020;
+  color: #fff;
+  direction: rtl;
+}
+
+h1 {
+  color: #a855f7;
+}
+.avatarImg {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 2px solid #ffffff30;
+}

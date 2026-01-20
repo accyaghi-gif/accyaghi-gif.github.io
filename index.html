@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ahmad Yaghi | محاسب و محاسب ضريبي</title>
+  <meta name="description" content="Ahmad Yaghi — محاسب شركات تجارية وخدمية وصناعية، ومحاسب ضريبي. موقع شخصي مع QR Code وطرق تواصل." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+</head>
+
+<body>
+  <header class="nav">
+    <div class="container nav__inner">
+      <a class="brand" href="#top" aria-label="الصفحة الرئيسية">
+        <span class="brand__dot"></span>
+        <span>Ahmad Yaghi</span>
+      </a>
+
+      <nav class="menu" aria-label="التنقل">
+        <a href="#about">نبذة</a>
+        <a href="#services">الخدمات</a>
+        <a href="#work">مجالات</a>
+        <a class="btn btn--ghost" href="ahmad-yaghi-cv.pdf" download>تحميل السيرة الذاتية (CV)</a>
+        <a href="#contact">تواصل</a>
+      </nav>
+
+      <button class="nav__btn" id="toggle" aria-label="فتح القائمة">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="pill">👋 أهلًا! أنا</p>
+          <h1>Ahmad Yaghi <span class="grad">محاسب</span> و <span class="grad">محاسب ضريبي</span></h1>
+          <p class="lead">
+  أنا <b>Ahmad Yaghi</b> — محاسب محترف متخصص في الشركات <b>التجارية</b> و<b>الخدمية</b> و<b>الصناعية</b>،
+  أقدّم حلول محاسبية عملية تساعدك على:
+  <br>
+  ✔ تنظيم حساباتك بدقة  
+  ✔ تحسين تقاريرك المالية  
+  ✔ الالتزام الضريبي بدون صداع  
+  ✔ تقليل الأخطاء والتكاليف  
+  <br><br>
+  هدفي إنك تفهم أرقامك، وتسيطر على مصاريفك، وتاخذ قرارات صح بثقة.
+</p>
+
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">تواصل الآن</a>
+            <a class="btn btn--ghost" href="#services">الخدمات</a>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__top">
+            <img src="me.jpg" class="avatarImg" alt="Ahmad Yaghi" />
+              <div>
+                <div class="card__name">Ahmad Yaghi</div>
+                <div class="card__role">Accountant • Tax Accountant</div>
+              </div>
+            </div>
+
+            <div class="card__qr">
+              <div class="qrBox">
+                <img id="qrImg" alt="QR Code لموقعي" />
+              </div>
+              <div class="qrText">
+                <h3>QR Code</h3>
+                <p>امسحه ويفتح رابط الموقع</p>
+                <div class="qrRow">
+              <input id="siteUrl" type="url" value="https://acc-ahmad-yaghi.netlify.app/" />
+                  <button class="btn btn--small" id="genBtn">تحديث</button>
+                </div>
+                <p class="hint">بعد ما يطلع لك رابط Netlify، الصقه هون واضغط “تحديث”.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
